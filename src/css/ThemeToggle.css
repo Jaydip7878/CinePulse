@@ -1,0 +1,31 @@
+.theme-toggle {
+  background-color: transparent;
+  border: 2px solid var(--border-color);
+  color: var(--text-primary);
+  font-size: 1.2em;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--border-color);
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  transform: scale(1.06);
+  box-shadow: var(--shadow-md);
+}
+
+.theme-toggle:active {
+  transform: scale(0.98);
+}
+
+.theme-toggle:focus,
+.theme-toggle:focus-visible {
+  outline: none;
+}

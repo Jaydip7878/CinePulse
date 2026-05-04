@@ -1,0 +1,11 @@
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--primary-color);
+  min-height: calc(100vh - 60px);
+  transition: background-color 0.3s ease;
+}
